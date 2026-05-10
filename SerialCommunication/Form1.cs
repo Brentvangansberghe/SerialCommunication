@@ -263,5 +263,15 @@ namespace SerialCommunication
                 }
             }
         }
+
+        private void tabControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timerOefening3_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
