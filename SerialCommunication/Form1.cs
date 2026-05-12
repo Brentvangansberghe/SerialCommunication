@@ -344,9 +344,9 @@ namespace SerialCommunication
         {
             try
             {
-                if (!serialPortArduino.IsOpen)
+                if (serialPortArduino.IsOpen)
                 { 
-                   serialPortArduino.ReadExisting();
+                    serialPortArduino.ReadExisting();
                     string commando = "get a0";
                     serialPortArduino.WriteLine(commando);
 
